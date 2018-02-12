@@ -25,3 +25,12 @@ Despite the lack of strong individual predictors, the Random Forest Classifier a
 For this problem, I started by binning the qualities into less granular intervals with 3-4 as the lowest, 5-6 in the middle, and 7-9 as the highest. After consolidating the qualities, I oversampled the outside groups because they had very low sample sizes, and my models before random sampling were basically ignoring them. In conjunction with oversampling the low frequency classes, I undersampled the high frequency classes. After sampling, the models improved drastically and begin predicting the outside classes with better recall.
 
 For models that required standardization (SVM, RidgeRegression), I used a scaling method that's resistant to outliers. All models were cross-validated to tune hyperparamters with either standard scikit-learn methods or more adanaced scikit-learn methods (randomized parameter search).
+
+## Next Steps
+Moving forward, there are a few ideas I would like to try:
+
+1. Could we get better separation by dropping the 5s and 6s altogether, then calling 3-4 "bad" and 7-9 "good"? There's a good chance we won't have enough observations, so that may not be an option.
+2. Could we map the qualities to binary and build a wine scorecard in the same way that we build a credit scorecard? 
+4. Is there a way for us to balance out the red and white wines with oversampling? I haven't been able to find much information on oversampling predictors, only targets.
+
+I'd also like to try using a tool like ```lime``` to analyze the results of "black-box" models like SVMs, Neural Nets, and Gradient Boosting Classifiers. Although I tried using a support vector machine, I stuck to more explainable models (Random Forests, Logistic Regression). It would be intersting to see how neural networks and gradient boosting classifiers would perform.
