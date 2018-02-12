@@ -1,6 +1,6 @@
 # What's in a good wine?
 
-<img src="/img/wine.jpg" width="80%">
+<img src="/img/wine.jpg">
 
 To answer this question, I am using a dataset with a collection of descriptive and physicochemical characteristics of more than 6000 different wines along with a 'quality rating'. The quality rating represents the median score from three wine experts from 0-10 where 0 is terrible and 10 is excellent. Please use any method(s) you find appropriate to help us understand what makes a wine ‘good’.
 
