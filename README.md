@@ -1,5 +1,4 @@
-# wine-classification
-## What's in a good wine?
+# What's in a good wine?
 To answer this question, I am using a dataset with a collection of descriptive and physicochemical characteristics of more than 6000 different wines along with a 'quality rating'. The quality rating represents the median score from three wine experts from 0-10 where 0 is terrible and 10 is excellent. Please use any method(s) you find appropriate to help us understand what makes a wine ‘good’.
 
 I am using Python for my data analysis. Packages include ```pandas```, ```numpy```, ```scikit-learn```, ```statsmodels```, ```seaborn```, ```pandas-profiling``` (data exploration), ```imbalanced-learn``` (over- and under-sampling), and ```mord``` (ordinal logistic regression).
