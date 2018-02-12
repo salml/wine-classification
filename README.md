@@ -18,7 +18,7 @@ From a univariate perspective, the only variable that correlated directly with t
 
 Despite the lack of strong individual predictors, the Random Forest Classifier achieved an accuracy of 78% on a test set after cross-validation and combined over- and under-sampling. The model had an average f1-score of 0.79.
 
-<img src="/img/RandomForestClassifier_ClassificationReport.png" width="60%")
+<img src="/img/RandomForestClassifier_ClassificationReport.png" width="60%">
 
 
 ## Methodology
