@@ -5,7 +5,7 @@ I am using Python for my data analysis. Packages include ```pandas```, ```numpy`
 
 ## Results
 According to the champion model, a Random Forest Classifer, the most important features from most to least important were ```fixed_acidity```, ```alcohol```, ```volatile_acidity```, ```free_sulfur_dioxide```, ```sulphates```, ```residual_sugar```, and ```type``` (color of wine). 
-
+<img src="/img/RandomForestClassifier_FeatureImportances.png" width="40%">.
 ![](/img/RandomForestClassifier_FeatureImportances.png | width=500)
 
 The selection of these variables agreed with both ordinal logistic regression and ridge classification models, although the logistic model provided odds ratios as well. 
