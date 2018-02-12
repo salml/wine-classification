@@ -6,19 +6,19 @@ I am using Python for my data analysis. Packages include ```pandas```, ```numpy`
 ## Results
 According to the champion model, a Random Forest Classifer, the most important features from most to least important were ```fixed_acidity```, ```alcohol```, ```volatile_acidity```, ```free_sulfur_dioxide```, ```sulphates```, ```residual_sugar```, and ```type``` (color of wine). 
 
-![img](/img/RandomForestClassifier_FeatureImportances.png =250x)
+![img](/img/RandomForestClassifier_FeatureImportances.png)
 
 The selection of these variables agreed with both ordinal logistic regression and ridge classification models, although the logistic model provided odds ratios as well. 
 
-![img](/img/OrdinalLogisticRegression_OddsRatios.png =250x)
+![img](/img/OrdinalLogisticRegression_OddsRatios.png)
 
 From a univariate perspective, the only variable that correlated directly with the quality score was alcohol. This would suggest that alcohol is a large contributer to a wines quality, although I am very skeptical that this is how the somiliers are rating the wines! After looking around the web, I think there are some other factors that contribute to a somilier's opinion of a wine.
 
-![img](/img/AlcoholDistribution_by_Quality_and_Color.png =250x)
+![img](/img/AlcoholDistribution_by_Quality_and_Color.png)
 
 Despite the lack of strong individual predictors, the Random Forest Classifier achieved an accuracy of 78% on a test set after cross-validation and combined over- and under-sampling. The model had an average f1-score of 0.79.
 
-![img](/img/RandomForestClassifier_ClassificationReport.png =250x)
+![img](/img/RandomForestClassifier_ClassificationReport.png)
 
 
 ## Methodology
