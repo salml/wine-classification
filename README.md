@@ -34,3 +34,5 @@ Moving forward, there are a few ideas I would like to try:
 4. Is there a way for us to balance out the red and white wines with oversampling? I haven't been able to find much information on oversampling predictors, only targets.
 
 I'd also like to try using a tool like ```lime``` to analyze the results of "black-box" models like SVMs, Neural Nets, and Gradient Boosting Classifiers. Although I tried using a support vector machine, I stuck to more explainable models (Random Forests, Logistic Regression). It would be intersting to see how neural networks and gradient boosting classifiers would perform.
+
+From a coding perspective, there is definitely a lot of repetitive code for building/visualizing models should be encapsulated into more modular functions.
