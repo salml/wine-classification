@@ -14,7 +14,7 @@ The selection of these variables agreed with both ordinal logistic regression an
 
 From a univariate perspective, the only variable that correlated directly with the quality score was alcohol. This would suggest that alcohol is a large contributer to a wines quality, although I am very skeptical that this is how the somiliers are rating the wines! After looking around the web, I think there are some other factors that contribute to a somilier's opinion of a wine.
 
-![img](/img/AlcoholDistribution_by_Alcohol_and_Color.png)
+![img](/img/AlcoholDistribution_by_Quality_and_Color.png)
 
 Despite the lack of strong individual predictors, the Random Forest Classifier achieved an accuracy of 78% on a test set after cross-validation and combined over- and under-sampling. The model had an average f1-score of 0.79.
 
