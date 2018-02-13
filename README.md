@@ -39,3 +39,6 @@ Moving forward, there are a few ideas I would like to try:
 I'd also like to try using a tool like ```lime``` to analyze the results of "black-box" models like SVMs, Neural Nets, and Gradient Boosting Classifiers. Although I tried using a support vector machine, I stuck to more explainable models (Random Forests, Logistic Regression). It would be intersting to see how neural networks and gradient boosting classifiers would perform.
 
 From a coding perspective, there is definitely a lot of repetitive code for building/visualizing models should be encapsulated into more modular functions.
+
+### Data Source
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
