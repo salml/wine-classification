@@ -34,7 +34,8 @@ Moving forward, there are a few ideas I would like to try:
 
 1. Could we get better separation by dropping the 5s and 6s altogether, then calling 3-4 "bad" and 7-9 "good"? There's a good chance we won't have enough observations, so that may not be an option.
 2. Could we map the qualities to binary and build a wine scorecard in the same way that we build a credit scorecard? 
-4. Is there a way for us to balance out the red and white wines with oversampling? I haven't been able to find much information on oversampling predictors, only targets.
+3. Is there a way for us to balance out the red and white wines with oversampling? I haven't been able to find much information on oversampling predictors, only targets. Similarly, what if we focused solely on white wines to eliminate the sample size bias?
+
 
 I'd also like to try using a tool like ```lime``` to analyze the results of "black-box" models like SVMs, Neural Nets, and Gradient Boosting Classifiers. Although I tried using a support vector machine, I stuck to more explainable models (Random Forests, Logistic Regression). It would be intersting to see how neural networks and gradient boosting classifiers would perform.
 
